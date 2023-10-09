@@ -1,22 +1,18 @@
 # Pull Request Demo
-Este repositorio es para probar la funcionalidad de Pull Request de Github, y que cualquiera pueda solicitar un cambio al código.
+<h2>fork</h2>
 
-Para poder participar en el demo lo que tienes que hacer es subir un **pull request**. Para hacerlo hay varias formas de hacerlo
+然后回到自己的 repositories 中就能看到刚才fork 的项目了，其实fork就是复制了当前项目的镜像，这个复制后的镜像就是你自己的了，你拥有最高的权限。
+<h2>pull</h2>
+pull 就是把fork 后的项目拉到本地，然后修改代码。这个没啥说的，就是常规操作。
+commit
+commit 也没啥，和正常的提交代码一样，写好提交信息就好了。
+push
+push 就是把这次的commit提交到自己的github上去。注意，这次push是push到自己fork后的仓库中，别搞混了。
+pull request
+现在就到最重要的一步了，创建 pull request了。
+到自己的github中，能看到自己刚才的commit了，这时候github 就会提示我们去创建pull request了
 
-## Pull Request haciendo modificación directamente en el archivo del repositorio
-1. Dentro del repositorio en GitHub ve al archivo app.js y en el ícono de editar da click.
-2. Una vez hecho el cambio pon una descripción al commit y realiza el commit. En este punto Github te muestra que hizo un fork para poder realizar el cambio sugerido.
-3. Una vez hecho el commit te saldrá una interfaz para enviar tu pull request. Asegúrate que el repositorio y rama destino sea la de marcosrivas/pull-request-demo branch:master y la de origen sea tu repositorio con tu rama nueva creada.
-4. Añade comentarios y darle en **Create Pull Request**
-
-## Pull Request haciendo un fork del repositorio
-
-1. Hacer fork a este repositorio, ya que de esa forma podrás tener una copia en tu perfil.
-2. Puedes clonar el repositorio en tu equipo local y editar directamente el archivo app.js en tu editor de texto o usando la interfaz de Github.
-3. Crea una nueva rama que identifique los cambios hechos ahí. Cámbiate a esa rama.
-4. Edita los cambios en app.js y haz un commit en esa rama nueva. Si editaste el archivo en tu equipo local, haz un git push para poder subir tus cambios a GitHub.
-5. Ve al repositorio de marcosrivasr/pull-request-demo y te aparecerá una leyenda que dice **Compare and pull request**, da click en esa opción para poder conifgurar el pull request.
-6. Asegúrate que el repositorio y rama destino sea la de marcosrivas/pull-request-demo branch:master y la de origen sea tu repositorio con tu rama nueva creada.
-7. Añade comentarios y darle en **Create Pull Request**
-
-©Vida MRR 2019
+作者：宇宙区长孙连成
+链接：https://juejin.cn/post/7133891705073303582
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
